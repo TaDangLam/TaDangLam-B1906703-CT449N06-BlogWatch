@@ -17,8 +17,8 @@
   
                       <v-textarea  v-model="post.content" label="Content" prepend-icon="mdi-comment-text"></v-textarea>
   
-                      <!-- <v-file-input @change="selectFile" counter show-size  label="Select Image"></v-file-input>
-                      <v-img :src="`/${post.image}`" width="150" height="100"></v-img> -->
+                      <v-file-input @change="selectFile" counter show-size  label="Select Image"></v-file-input>
+                      <v-img :src="`/${post.image}`" width="150" height="100"></v-img>
                       <v-btn type="submit" class="mt-3" color="success">Update Post</v-btn>
                   </v-form>
               </v-card>
